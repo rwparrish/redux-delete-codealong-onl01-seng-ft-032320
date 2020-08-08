@@ -12,8 +12,6 @@ export default function manageTodo(state = {
         text: action.payload.text
       }
 
-    case 'ADD_TODO':
-
       return { todos: state.todos.concat(todo) };
 
     case 'DELETE_TODO':
